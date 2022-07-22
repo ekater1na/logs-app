@@ -10,4 +10,6 @@ COPY . .
 
 EXPOSE ${PORT}
 
+VOLUME [ "/app/data" ]
+
 CMD ["node", "app.js"]

@@ -1,0 +1,14 @@
+version: "3.9"
+
+services:
+  app:
+    container_name: app
+    image: new
+    build:
+      context: .
+      dockerfile: Dockerfile   
+      
+      
+volumes:
+  myapp:  
+  logs:
